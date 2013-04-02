@@ -11,6 +11,6 @@ There are many research about how breathing exercise helps manage asthma. So wha
 
 I had interview with some experts in asthma. Based on my research, I created the wireframe I am envisioning. But I am still researching about how to what is the most effective way to practice breath.
 
-&nbsp;
+For more information, visit <a href="http://www.hellojihyun.com" target="_blank">hellojihyun.com</a>.
 
 \* Adobe Illustrator/ Photoshop
