@@ -1,0 +1,399 @@
+TflyingPenguin
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Info.plist ofxiphone-Info.plist
+cCopyPlistFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ofxiphone-Info.plist ofxiphone-Info.plist
+cCpResource Project.xcconfig build/Debug-iphoneos/flyingPenguin.app/Project.xcconfig
+cCpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig
+cProcessPCH++ /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin normal armv7
+cGenerateDSYMFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin
+cPhaseScriptExecution "Run Script" /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh
+cProcessProductPackaging "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision
+cTouch /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent
+cCodeSign /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000005064492A0000000000000110
+t1348749610
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7807DB000000000015F8A0
+t1316489179
+s1439904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F36E00000000005AF640
+t1316156270
+s5961280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004E7805AD0000000000076750
+t1316488621
+s485200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004E78069100000000000748C0
+t1316488849
+s477376
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004E72F744000000000001A9B0
+t1316157252
+s108976
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F3370000000000001534
+t1316156215
+s5428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004E78098C00000000000AF270
+t1316489612
+s717424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004E72F3C20000000000022660
+t1316156354
+s140896
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F6E00000000000017190
+t1316157152
+s94608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F8910000000000173260
+t1316157585
+s1520224
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E7808770000000000000BCB
+t1316489335
+s3019
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+c000000005169B51200000000000008A9
+t1365882130
+s2217
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/Project.xcconfig
+c000000005169B52F00000000000001C3
+t1365882159
+s451
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Info.plist
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/PkgInfo
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Project.xcconfig
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ofxiphone-Info.plist
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguin.LinkFileList
+c00000000516B00A400000000000001F1
+t1365967012
+s497
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh
+c00000000516B00A40000000000000042
+t1365967012
+s66
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent
+t2
+s0
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/iPhone_Prefix.pch
+c0000000051237D2000000000000000B5
+t1361280288
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/ofxiphone-Info.plist
+c00000000516AFF420000000000000445
+t1365966658
+s1093
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm
+c00000000516AFDD90000000000000D75
+t1365966297
+s3445
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm
+c00000000516AFDCF0000000000000090
+t1365966287
+s144
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm
+c00000000516AF1BB0000000000000532
+t1365963195
+s1330
+
+N/Users/ez/Documents/of_v0.7.4_ios_release/libs/openFrameworksCompiled/lib/ios/libofxiPhone_iphoneos_Debug.a
+c00000000516AEC7800000000021203A0
+t1365961848
+s34735008
+
+N/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision
+c000000005166460B0000000000001D2B
+t1365657099
+s7467
+
+N/var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch.pth
+t1365962602
+s4686952
+
+Nofxiphone-Info.plist
+c00000000516AFF420000000000000445
+t1365966658
+s1093
+
+CBuild AST from /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm
+r0
+
+CBuild AST from /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm
+r0
+
+CBuild AST from /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfb94b324381bb741^dfc0b824381bb741^-116"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.1(21%IDEActivityLogMessage2@109"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.-387659812#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"9C5FD9D1-AEA1-4184-8292-148C4A066579-
+
+CCodeSign /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+s387659819.994830
+e387659820.601461
+r1
+xCodeSign
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Debug-iphoneos/flyingPenguin.appeecefe2b381bb741^01fa992c381bb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/0000000000000000^848"CodeSign build/Debug-iphoneos/flyingPenguin.app    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Ji Hyun Lee (X68UHV673G)" --resource-rules=/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist --entitlements /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app36"14DEFFCF-65C1-4CEA-896F-2EBFB0EE6FC5-
+
+CCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387659812.928749
+e387659815.111305
+r1
+xCompileC
+xbuild/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm8a20ee24381bb741^5a7e1c27381bb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm0000000000000000^4225"CompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o src/flyingPenguinApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-generated-files.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-own-target-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-all-target-headers.hmap -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-project-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxiPhone/src/app -I../../../addons/ofxiPhone/src/core -I../../../addons/ofxiPhone/src/events -I../../../addons/ofxiPhone/src/gl -I../../../addons/ofxiPhone/src/sound -I../../../addons/ofxiPhone/src/utils -I../../../addons/ofxiPhone/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -Isrc -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources/armv7 -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources -F/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos -include /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.d -c /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/flyingPenguinApp.mm -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguinApp.o36"94625655-C3B1-4AEE-9342-FAE63FC8A746-
+
+CCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387659812.927455
+e387659815.029880
+r1
+xCompileC
+xbuild/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm5cabed24381bb741^0bb80727381bb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm0000000000000000^4165"CompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-generated-files.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-own-target-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-all-target-headers.hmap -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-project-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxiPhone/src/app -I../../../addons/ofxiPhone/src/core -I../../../addons/ofxiPhone/src/events -I../../../addons/ofxiPhone/src/gl -I../../../addons/ofxiPhone/src/sound -I../../../addons/ofxiPhone/src/utils -I../../../addons/ofxiPhone/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -Isrc -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources/armv7 -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources -F/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos -include /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.d -c /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/main.mm -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/main.o36"10496E59-1D0D-44E0-8B6F-FBAF0D663711-
+
+CCompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387659815.031298
+e387659816.701742
+r1
+xCompileC
+xbuild/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm834e0827381bb741^e3a5b328381bb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm0000000000000000^4235"CompileC build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o src/ofxiPhoneKeyEvents.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-generated-files.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-own-target-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-all-target-headers.hmap -iquote /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-project-headers.hmap -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxiPhone/src/app -I../../../addons/ofxiPhone/src/core -I../../../addons/ofxiPhone/src/events -I../../../addons/ofxiPhone/src/gl -I../../../addons/ofxiPhone/src/sound -I../../../addons/ofxiPhone/src/utils -I../../../addons/ofxiPhone/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -Isrc -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources/armv7 -I/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources -F/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos -include /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.d -c /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/src/ofxiPhoneKeyEvents.mm -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/ofxiPhoneKeyEvents.o36"07011826-94A9-49C6-B4AF-41C9EA31DD1B-
+
+CCopyPlistFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ofxiphone-Info.plist ofxiphone-Info.plist
+s387659812.846822
+e387659812.908671
+r1
+xCopyPlistFile
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ofxiphone-Info.plist
+xofxiphone-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Copy ofxiphone-Info.plist79e7d824381bb741^ff060525381bb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/ofxiphone-Info.plist0000000000000000^474"CopyPlistFile build/Debug-iphoneos/flyingPenguin.app/ofxiphone-Info.plist ofxiphone-Info.plist    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app -- ofxiphone-Info.plist36"ACE60D10-EBB4-4629-A6A4-354C8ECCA650-
+
+CCpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig
+s387659812.851783
+e387659812.895898
+r1
+xCpResource
+x../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+xbuild/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfigbf2bda24381bb741^0610e624381bb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig00f4d012dfffdf42^703"CpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphoneos/flyingPenguin.app/CoreOF.xcconfig    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app36"54DFF3C2-6459-4F1D-8C51-64922CBE5A54-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist
+s387659812.731453
+e387659812.838193
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist2369bb24381bb741^11fee524381bb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist00f4d012dfffdf42^689"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app36"C4B2698A-1208-43C0-BE1A-6B15F2E437C0-
+
+CCpResource Project.xcconfig build/Debug-iphoneos/flyingPenguin.app/Project.xcconfig
+s387659812.847369
+e387659812.850484
+r1
+xCpResource
+xProject.xcconfig
+xbuild/Debug-iphoneos/flyingPenguin.app/Project.xcconfig
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphoneos/flyingPenguin.app/Project.xcconfigda03d924381bb741^d906e624381bb741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Project.xcconfig00f4d012dfffdf42^608"CpResource Project.xcconfig build/Debug-iphoneos/flyingPenguin.app/Project.xcconfig    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/Project.xcconfig /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app36"70D2EDF8-3A9C-4264-84C4-DFA65BBE7D23-
+
+CGenerateDSYMFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin
+s387659818.065549
+e387659819.644181
+r1
+xGenerateDSYMFile
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generating /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYMdee7102a381bb741^a7e8a42b381bb741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM00f4d012dfffdf42^581"GenerateDSYMFile build/Debug-iphoneos/flyingPenguin.app.dSYM build/Debug-iphoneos/flyingPenguin.app/flyingPenguin    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app.dSYM36"47C8ABA3-398B-410C-AD3C-D559AF6CD3C7-
+
+CLd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin normal armv7
+s387659816.709482
+e387659818.058590
+r1
+xLd
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin
+xnormal
+xarmv7
+old: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file
+old: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)
+old: warning: ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7)
+old: warning: 32-bit absolute address out of range (0x1002AFAA4 max is 4GB): from _inflate_table + 0x00000674 (0x001034C4) to 0x1002AFAA4
+old: warning: 32-bit absolute address out of range (0x1002AFAE2 max is 4GB): from _inflate_table + 0x00000670 (0x001034C4) to 0x1002AFAE2
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguind9ccb528381bb741^81210f2a381bb741^-668"ld: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in fileld: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: 32-bit absolute address out of range (0x1002AFAA4 max is 4GB): from _inflate_table + 0x00000674 (0x001034C4) to 0x1002AFAA4ld: warning: 32-bit absolute address out of range (0x1002AFAE2 max is 4GB): from _inflate_table + 0x00000670 (0x001034C4) to 0x1002AFAE25(21%IDEActivityLogMessage2@102"Ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file-387659816#0#116#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@126"Ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)-387659816#116#140#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@124"Ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7)-387659816#256#138#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1002AFAA4 max is 4GB): from _inflate_table + 0x00000674 (0x001034C4) to 0x1002AFAA4-387659817#394#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1002AFAE2 max is 4GB): from _inflate_table + 0x00000670 (0x001034C4) to 0x1002AFAE2-387659817#531#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--1895"Ld build/Debug-iphoneos/flyingPenguin.app/flyingPenguin normal armv7    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang++ -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos -F/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos -filelist /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguin.LinkFileList -dead_strip -ObjC ../../../libs/freetype/lib/ios/freetype.a ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/FreeImage/lib/ios/freeimage.a ../../../libs/glew/lib/osx/glew.a ../../../libs/poco/lib/ios/PocoFoundation.a ../../../libs/poco/lib/ios/PocoData.a ../../../libs/poco/lib/ios/PocoNet.a ../../../libs/poco/lib/ios/PocoXML.a ../../../libs/poco/lib/ios/PocoZip.a ../../../libs/poco/lib/ios/PocoUtil.a ../../../libs/tess2/lib/ios/tess2.a ../../../libs/glu/lib/ios/glu.a ../../../libs/glu/lib/ios/glu-ios.a -miphoneos-version-min=3.1 /Users/ez/Documents/of_v0.7.4_ios_release/libs/openFrameworksCompiled/lib/ios/libofxiPhone_iphoneos_Debug.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/flyingPenguin36"54DF1EFB-6AA5-4037-9649-6317154ECCFE-
+
+CPhaseScriptExecution "Run Script" /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh
+s387659819.652744
+e387659819.716882
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'9351a92b381bb741^a512c22b381bb741^---0#0#0#--23838"PhaseScriptExecution "Run Script" build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ez    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT armv7    setenv ARCHS_STANDARD_32_BIT armv7    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build    setenv BUILD_ROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: Ji Hyun Lee (X68UHV673G)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH flyingPenguin.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/ez/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH flyingPenguin.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/flyingPenguin.dst    setenv DWARF_DSYM_FILE_NAME flyingPenguin.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH flyingPenguin.app/Executables    setenv EXECUTABLE_FOLDER_PATH flyingPenguin.app    setenv EXECUTABLE_NAME flyingPenguin    setenv EXECUTABLE_PATH flyingPenguin.app/flyingPenguin    setenv FILE_LIST /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH flyingPenguin.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME flyingPenguin.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iPhone_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLU "\"../../../libs/glu/include_ios\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_OFXACCELEROMETER "\"../../../addons/ofxAccelerometer/**\""    setenv HEADER_OFXIPHONE "\"../../../addons/ofxiPhone/**\""    setenv HEADER_OFXMULTITOUCH "\"../../../addons/ofxMultiTouch/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/include\" \"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\" src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiphone-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH flyingPenguin.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH flyingPenguin.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/flyingPenguin.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ez    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/flyingPenguin.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH flyingPenguin.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos\" "    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREEIMAGE_IPHONE "\"../../../libs/FreeImage/lib/ios/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/ios/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLU "\"../../../libs/glu/lib/ios/glu.a\""    setenv LIB_GLU_IPHONE "\"../../../libs/glu/lib/ios/glu-ios.a\""    setenv LIB_POCODATA_IPHONE "\"../../../libs/poco/lib/ios/PocoData.a\""    setenv LIB_POCOFOUNDATION_IPHONE "\"../../../libs/poco/lib/ios/PocoFoundation.a\""    setenv LIB_POCONET_IPHONE "\"../../../libs/poco/lib/ios/PocoNet.a\""    setenv LIB_POCOUTIL_IPHONE "\"../../../libs/poco/lib/ios/PocoUtil.a\""    setenv LIB_POCOXML_IPHONE "\"../../../libs/poco/lib/ios/PocoXML.a\""    setenv LIB_POCOZIP_IPHONE "\"../../../libs/poco/lib/ios/PocoZip.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LIB_TESS_IPHONE "\"../../../libs/tess2/lib/ios/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal/armv7/flyingPenguin.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH flyingPenguin.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11C74    setenv MAC_OS_X_VERSION_ACTUAL 1072    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0702    setenv MISC_FLAGS "\"-ObjC\""    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Objects-normal    setenv OBJROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\""    setenv OF_CORE_LIBS "\"-ObjC\" \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/poco/lib/ios/PocoData.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/tess2/lib/ios/tess2.a\"    \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "\"-ObjC\" \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/poco/lib/ios/PocoData.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/tess2/lib/ios/tess2.a\"    \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH flyingPenguin.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c++    setenv PKGINFO_FILE_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/PkgInfo    setenv PKGINFO_PATH flyingPenguin.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH flyingPenguin.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH flyingPenguin.app/PrivateHeaders    setenv PRODUCT_NAME flyingPenguin    setenv PRODUCT_SETTINGS_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/ofxiphone-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT flyingPenguin    setenv PROJECT_DERIVED_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/DerivedSources    setenv PROJECT_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PROJECT_FILE_PATH /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/flyingPenguin.xcodeproj    setenv PROJECT_NAME flyingPenguin    setenv PROJECT_TEMP_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build    setenv PROVISIONING_PROFILE F8CDC625-922A-459C-B0C6-702A00770E6C    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH flyingPenguin.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH flyingPenguin.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk    setenv SDK_NAME iphoneos5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH flyingPenguin.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH flyingPenguin.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv SRCROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME flyingPenguin    setenv TARGET_BUILD_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos    setenv TARGET_NAME flyingPenguin    setenv TARGET_TEMP_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build    setenv TEMP_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build    setenv TEMP_FILES_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build    setenv TEMP_FILE_DIR /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build    setenv TEMP_ROOT /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH flyingPenguin.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ez    setenv USER_APPS_DIR /Users/ez/Applications    setenv USER_LIBRARY_DIR /Users/ez/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH flyingPenguin.app/version.plist    setenv VERSION_INFO_BUILDER ez    setenv VERSION_INFO_FILE flyingPenguin_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:flyingPenguin  PROJECT:flyingPenguin-\""    setenv WARNING_LDFLAGS -no_arch_warnings    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME flyingPenguin.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D502    setenv XCODE_VERSION_ACTUAL 0421    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/Script-9255DD331112741900D6945E.sh36"271D83E1-4045-45A5-A10B-6C52DFE2D2BF-
+
+CProcessInfoPlistFile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Info.plist ofxiphone-Info.plist
+s387659812.732189
+e387659812.834163
+r1
+xProcessInfoPlistFile
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Info.plist
+xofxiphone-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process ofxiphone-Info.plist9c8bbb24381bb741^0bf0e524381bb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/ofxiphone-Info.plist0000000000000000^790"ProcessInfoPlistFile build/Debug-iphoneos/flyingPenguin.app/Info.plist ofxiphone-Info.plist    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ofxiphone-Info.plist -genpkginfo /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/ResourceRules.plist -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/Info.plist36"EAE2804D-7AD3-44DA-A0D1-961DB0B2254A-
+
+CProcessPCH++ /Users/ez/Library/Developer/Xcode/DerivedData/flyingPenguin-asryogjvnxrckuhhnibxlwewaioz/Index/PrecompiledHeaders/iPhone_Prefix-efovffugvekxfkegwqhfulkkhnwr_ast/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/_b/f3hpk0190cjf9dspb_2tykdh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-ecfceabfkaheamgrzzgqghlpiljz/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision
+s387659819.877859
+e387659819.896586
+r1
+xProcessProductPackaging
+x/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"ProcessProductPackaging "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovisionaf09e12b381bb741^5586e52b381bb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision0000000000000000^674"ProcessProductPackaging "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/ez/Library/MobileDevice/Provisioning Profiles/F8CDC625-922A-459C-B0C6-702A00770E6C.mobileprovision" -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app/embedded.mobileprovision36"B66CB2E3-0F70-4BD1-84AC-1DFB16886DA0-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent
+s387659819.969950
+e387659819.974955
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent3f71f82b381bb741^38a0f92b381bb741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent00f4d012dfffdf42^696"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/flyingPenguin.build/Debug-iphoneos/flyingPenguin.build/flyingPenguin.xcent36"571606DA-F244-4530-A14B-AEC11478A91F-
+
+CTouch /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+s387659819.905887
+e387659819.959129
+r1
+xTouch
+x/Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.appab07e82b381bb741^5396f52b381bb741^---0#0#0#--373"Touch build/Debug-iphoneos/flyingPenguin.app    cd /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ez/Documents/of_v0.7.4_ios_release/apps/myApps/flyingPenguin/build/Debug-iphoneos/flyingPenguin.app36"09B67552-DD54-4A97-9F2A-C08AC033BD76-
+

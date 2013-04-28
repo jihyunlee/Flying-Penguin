@@ -1,3 +1,9 @@
+//
+//  Flying Penguin
+//  Jihyun Lee
+//  www.hellojihyun.com
+//
+
 #include "ofMain.h"
 #include "flyingPenguinApp.h"
 

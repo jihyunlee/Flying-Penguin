@@ -1,9 +1,17 @@
+//
+//  Flying Penguin
+//  Jihyun Lee
+//  www.hellojihyun.com
+//
+
 #pragma once
 
 #include "ofMain.h"
 #include "ofxiPhone.h"
 #include "ofxiPhoneExtras.h"
 #include "ofxiPhoneKeyEvents.h"
+#include "ViewController.h"
+#include "Wind.h"
 
 class flyingPenguinApp : public ofxiPhoneApp {
 	
@@ -30,16 +38,17 @@ public:
 
 	void audioIn(float * input, int bufferSize, int nChannels);
 
-	int	initialBufferSize;
+    int	initialBufferSize;
 	int	sampleRate;
 	int	drawCounter;
     int bufferCounter;
-	float * buffer;
-    int audioLevel;
+	float * buffer;   
     
     ofxiPhoneKeyEvents* keyEvents;
     int key;
     
     ofTrueTypeFont font;
+    
+    BaseView* currentView;
 
 };
